@@ -1,0 +1,7 @@
+<h1>Commets</h1>
+<div *ngIf="comments  as comments">
+    <br/>
+    <div *ngFor="let comment of comments">
+        <app-card [dataCard]="comment"></app-card>
+    </div>
+</div>

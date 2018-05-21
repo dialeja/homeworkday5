@@ -1,0 +1,10 @@
+div {
+    border: 1px solid rgb(122, 18, 67);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+    margin: auto;
+    color: rgb(69, 153, 209);
+    box-shadow: 5px 5px 5px 5px rgb(116, 139, 79);
+}

@@ -1,0 +1,7 @@
+<h1>Posts</h1>
+<div *ngIf="post$  as posts">
+    <br/>
+    <div *ngFor="let post of posts">
+        <app-card [dataCard]="post"></app-card>
+    </div>
+</div>
